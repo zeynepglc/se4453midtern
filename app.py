@@ -25,6 +25,6 @@ def hello():
         cur.close()
         conn.close()
 
-        return f"✅ Hello from Flask! Connected to PostgreSQL {version[0]}"
+        return f"✅ Hello from Flask Midterm! Connected to PostgreSQL {version[0]}"
     except Exception as e:
         return f"❌ PostgreSQL connection failed: {str(e)}"
