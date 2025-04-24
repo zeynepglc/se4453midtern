@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/hello")
 def hello():
-    return "✅ Flask başarıyla çalışıyor!"
+    return " Flask başarıyla çalışıyor!"
